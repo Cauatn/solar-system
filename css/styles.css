@@ -781,88 +781,43 @@ body {
 
 /* --------------------------------------------------------------------------- size */
 .set-size dl.infos dd span:after {
-  content: "Circunferência";
+  content: "Diâmetro";
 }
 
 .set-size #sun dl.infos dd:after {
-  content: "4,370,005 km";
+  content: "1.390.000 km";
 }
 
 .set-size #mercury dl.infos dd:after {
-  content: "15,329 km";
+  content: "4.879,4 km";
 }
 
 .set-size #venus dl.infos dd:after {
-  content: "38,024 km";
+  content: "12.103,6 km";
 }
 
 .set-size #earth dl.infos dd:after {
-  content: "40,030 km";
+  content: "12.756,2 km";
 }
 
 .set-size #mars dl.infos dd:after {
-  content: "21,296 km";
+  content: "6.794,4 km";
 }
 
 .set-size #jupiter dl.infos dd:after {
-  content: "439,263 km";
+  content: "142.984 km";
 }
 
 .set-size #saturn dl.infos dd:after {
-  content: "365,882 km";
+  content: "120.536 km";
 }
 
 .set-size #uranus dl.infos dd:after {
-  content: "159,354 km";
+  content: "51.118 km";
 }
 
 .set-size #neptune dl.infos dd:after {
-  content: "154,704 km";
-}
-
-/* --------------------------------------------------------------------------- distance */
-.set-distance dl.infos dd span:after {
-  content: "Do Sol";
-}
-
-.set-distance #sun dl.infos dd span:after {
-  content: "Da terra";
-}
-
-.set-distance #sun dl.infos dd:after {
-  content: "149,598,262 km";
-}
-
-.set-distance #mercury dl.infos dd:after {
-  content: "57,909,227 km";
-}
-
-.set-distance #venus dl.infos dd:after {
-  content: "108,209,475 km";
-}
-
-.set-distance #earth dl.infos dd:after {
-  content: "149,598,262 km";
-}
-
-.set-distance #mars dl.infos dd:after {
-  content: "227,943,824 km";
-}
-
-.set-distance #jupiter dl.infos dd:after {
-  content: "778,340,821 km";
-}
-
-.set-distance #saturn dl.infos dd:after {
-  content: "1,426,666,422 km";
-}
-
-.set-distance #uranus dl.infos dd:after {
-  content: "2,870,658,186 km";
-}
-
-.set-distance #neptune dl.infos dd:after {
-  content: "4,498,396,441 km";
+  content: "49.538 km";
 }
 
 /* --------------------------------------------------------------------------- planets starting position and lighting effect */
