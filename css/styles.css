@@ -908,7 +908,6 @@ body {
   }
 }
 
-.scaled.view-2D #mercury .planet,
 .scaled.view-3D #mercury .planet {
   box-shadow: inset -4px 0 2px rgba(0, 0, 0, 0.5);
   /* RIGHT */
@@ -956,7 +955,6 @@ body {
   }
 }
 
-.scaled.view-2D #venus .planet,
 .scaled.view-3D #venus .planet {
   box-shadow: inset -4px 0 2px rgba(0, 0, 0, 0.5);
   /* RIGHT */
@@ -1004,7 +1002,6 @@ body {
   }
 }
 
-.scaled.view-2D #earth .planet,
 .scaled.view-3D #earth .planet {
   box-shadow: inset -4px 0 2px rgba(0, 0, 0, 0.5);
   /* RIGHT */
@@ -1058,7 +1055,6 @@ body {
   }
 }
 
-.scaled.view-2D #mars .planet,
 .scaled.view-3D #mars .planet {
   box-shadow: inset -4px 0 2px rgba(0, 0, 0, 0.5);
   /* RIGHT */
@@ -1106,7 +1102,6 @@ body {
   }
 }
 
-.scaled.view-2D #jupiter .planet,
 .scaled.view-3D #jupiter .planet {
   box-shadow: inset -16px 0 5px rgba(0, 0, 0, 0.5);
   /* RIGHT */
@@ -1250,7 +1245,6 @@ body {
   }
 }
 
-.scaled.view-2D #neptune .planet,
 .scaled.view-3D #neptune .planet {
   box-shadow: inset -12px 0 5px rgba(0, 0, 0, 0.5);
   /* RIGHT */
@@ -1534,17 +1528,8 @@ h1 {
   margin-left: 82px;
 }
 
-.view-2D #controls label.set-view:before {
-  content: "3D";
-  margin-left: 7px;
-}
-
 .view-3D #controls .set-view input:after {
   margin-left: 3px;
-}
-
-.view-2D #controls .set-view input:after {
-  margin-left: 81px;
 }
 
 /* --------------------------------------------------------------------------- images */
